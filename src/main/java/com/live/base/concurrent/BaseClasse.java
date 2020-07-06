@@ -1,12 +1,15 @@
 package com.live.base.concurrent;
 
+import java.io.File;
+
 /**
- * @Description ：
- * 并发基础类
- *
+ * @description:多线程基础类
+ * @author:  sulh
+ * @date: 2020/7/5 12:22
+ * @param: null
+ * @return: 
  */
 public class BaseClasse {
-
 
 
 
