@@ -12,7 +12,7 @@ import java.io.File;
 public class BaseClasse {
 
     public static void main(String[] args) {
-
+        System.out.println();
     }
 
 
