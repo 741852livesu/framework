@@ -7,7 +7,13 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f75fc2-81d5-4987-87f0-1a7556716fe8" name="Default Changelist" comment="init">
@@ -19,14 +25,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/qaplug_profiles.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,7 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
+      <option value="module" />
     </option>
   </component>
   <component name="Git.Settings">
@@ -110,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600050132507</updated>
-      <workItem from="1600050133750" duration="1232000" />
+      <workItem from="1600050133750" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600050596344</created>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600051136394</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1600051380937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600051380937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +143,41 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/project/base/spring" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:E:/project/base/spring" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -168,18 +208,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="441" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600050542156" />
-    <state x="781" y="225" key="RollbackChangesDialog" timestamp="1600051108765">
+    <state width="1877" height="414" key="GridCell.Tab.0.bottom" timestamp="1600051550790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="781" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600051108765" />
-    <state x="552" y="243" key="Vcs.Push.Dialog.v2" timestamp="1600051315232">
+    <state width="1877" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550790" />
+    <state width="1877" height="414" key="GridCell.Tab.0.center" timestamp="1600051550790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600051315232" />
-    <state x="736" y="422" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600050480374">
+    <state width="1877" height="414" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550790" />
+    <state width="1877" height="414" key="GridCell.Tab.0.left" timestamp="1600051550790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="422" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600050480374" />
+    <state width="1877" height="414" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550790" />
+    <state width="1877" height="414" key="GridCell.Tab.0.right" timestamp="1600051550790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="414" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550790" />
+    <state width="1877" height="414" key="GridCell.Tab.1.bottom" timestamp="1600051550791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="414" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550791" />
+    <state width="1877" height="414" key="GridCell.Tab.1.center" timestamp="1600051550791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="414" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550791" />
+    <state width="1877" height="414" key="GridCell.Tab.1.left" timestamp="1600051550791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="414" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550791" />
+    <state width="1877" height="414" key="GridCell.Tab.1.right" timestamp="1600051550791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="414" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600051550791" />
+    <state x="781" y="225" key="RollbackChangesDialog" timestamp="1600051488837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="781" y="225" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600051488837" />
+    <state x="552" y="243" key="Vcs.Push.Dialog.v2" timestamp="1600051548260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600051548260" />
+    <state x="740" y="327" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1600051739838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="327" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600051739838" />
+    <state x="736" y="422" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600051466975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="422" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600051466975" />
     <state x="334" y="185" key="new project wizard" timestamp="1600050211899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
