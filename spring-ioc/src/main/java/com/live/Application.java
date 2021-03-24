@@ -1,21 +1,17 @@
 package com.live;
 
-import com.live.config.BaseConfigration;
-import com.live.entity.Student;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.live.*"})
+@ComponentScan(value = "com.*")
 public class Application {
 
     public static void main(String[] args) {
-        //SpringApplication.run(BaseConfigration.class);
-        Logger log = LoggerFactory.getLogger(BaseConfigration.class);
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(BaseConfigration.class);
-        Student student = applicationContext.getBean(Student.class);
-        log.info("获取的student..."+student.getName());
+        SpringApplication.run(Application.class);
+
     }
 
 }
