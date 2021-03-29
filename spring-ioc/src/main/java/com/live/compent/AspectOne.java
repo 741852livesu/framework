@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
-public class TestAspect {
+public class AspectOne {
 
     @Pointcut(value = "execution(* *.test*())")
     public void cut() {
