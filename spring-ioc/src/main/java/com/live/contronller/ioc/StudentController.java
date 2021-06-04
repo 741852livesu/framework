@@ -44,6 +44,7 @@ public class StudentController {
     public Student test1(HttpServletRequest request) {
         LocaleContextHolder.getLocaleContext();
         System.out.println("execute test...");
+        Map.class.isAssignableFrom(Map.class);
         return new Student();
     }
 
