@@ -7,6 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication(scanBasePackages = {"com.live.*"})
 @ComponentScan(value = "com.*")
+@EnableAspectJAutoProxy
 public class Application {
 
     public static void main(String[] args) {

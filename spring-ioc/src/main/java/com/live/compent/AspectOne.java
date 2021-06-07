@@ -14,6 +14,9 @@ public class AspectOne {
     public void cut() {
     }
 
+
+
+
     @Before(value = "cut()")
     public void before() {
 
