@@ -1,7 +1,7 @@
-package com.live.contronller.ioc;
+package com.live.springmvc.contronller.ioc;
 
-import com.live.entity.School;
-import com.live.entity.Student;
+import com.live.springmvc.entity.School;
+import com.live.springmvc.entity.Student;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,9 +27,9 @@ public class StudentController {
     private School school;
 
 
-    @GetMapping("/method")
+    @GetMapping("/method1")
     @ResponseBody
-    public Student get() {
+    public Student getmethod() {
         ServletRequestAttributes stt = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         stt.getResponse();
         /**随时获取request AND response */
@@ -63,7 +63,7 @@ public class StudentController {
 
     @GetMapping("/hello")
     @ModelAttribute
-    public void hello(Model model) {
+    public void getHello(Model model) {
         Map<String, Object> map = model.asMap();
         System.out.println(map);
 

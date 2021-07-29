@@ -14,3 +14,9 @@ RequestContextHolder 可以随时获取    HttpServletRequest和 HttpServletResp
 SpringMVC 源码分析之  DispatcherServlet
 doService()
 doDispatch()
+
+Annotation:
+    ControllerAdvice
+        @ExceptionHandler
+        @InitBinder, 
+        @ModelAttribut
