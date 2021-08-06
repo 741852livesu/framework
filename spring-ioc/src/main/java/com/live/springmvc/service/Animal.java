@@ -1,4 +1,4 @@
-package com.live.service;
+package com.live.springmvc.service;
 
 /**
  * @Description:
@@ -6,7 +6,7 @@ package com.live.service;
  * @date: 2021年07月12日 17:12
  * @version: 1.0
  */
-public interface Animal<T> {
+public interface Animal {
 
-    void eat(T t);
+    void eat();
 }

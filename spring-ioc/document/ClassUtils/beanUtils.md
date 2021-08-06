@@ -9,5 +9,7 @@ RequestBodyAdvice
 Model
 
 View
-ModelAndView
+ModelAndView 
 
+#根据接口获取底层实现方法
+Map map = BeanFactoryUtils.beansOfTypeIncludingAncestors(applicationContext, Animal.class);
