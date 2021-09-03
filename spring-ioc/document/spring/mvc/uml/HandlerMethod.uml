@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.ConcurrentResultHandlerMethod</OriginalElement>
+  <nodes>
+    <node x="64.0" y="0.0">org.springframework.web.method.HandlerMethod</node>
+    <node x="0.0" y="240.0">org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.ConcurrentResultHandlerMethod</node>
+    <node x="28.0" y="80.0">org.springframework.web.method.support.InvocableHandlerMethod</node>
+    <node x="0.0" y="160.0">org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.ConcurrentResultHandlerMethod" target="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.web.method.support.InvocableHandlerMethod" target="org.springframework.web.method.HandlerMethod">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" target="org.springframework.web.method.support.InvocableHandlerMethod">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="135.0" />
+  <SelectedNodes>
+    <node>org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.ConcurrentResultHandlerMethod</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
