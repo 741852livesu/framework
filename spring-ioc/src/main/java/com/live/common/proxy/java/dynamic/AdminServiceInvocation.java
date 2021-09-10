@@ -16,7 +16,7 @@ import java.lang.reflect.InvocationHandler;
 
 
 @Slf4j
-@Service
+//@Service
 public class AdminServiceInvocation implements InvocationHandler {
 
     private Object target;

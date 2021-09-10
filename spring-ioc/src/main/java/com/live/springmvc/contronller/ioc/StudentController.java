@@ -2,9 +2,14 @@ package com.live.springmvc.contronller.ioc;
 
 import com.live.springmvc.entity.School;
 import com.live.springmvc.entity.Student;
+import com.live.springmvc.service.imp.Cat;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,24 +24,34 @@ import java.util.Map;
 @Controller
 @RequestMapping("/test")
 @SessionAttributes("name")
+@Slf4j
 public class StudentController {
     private static final Logger LOGGER = LoggerFactory.getLogger(StudentController.class);
 
 
+        @Autowired
+    private School studentControllerSchool;
+
+
+    private String name = "fvv";
+
     @Autowired
-    private School school;
+    Cat cat;
 
 
     @GetMapping("/method1")
     @ResponseBody
     public Student getmethod() {
-        ServletRequestAttributes stt = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-        stt.getResponse();
-        /**随时获取request AND response */
-        ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-        HttpServletRequest request = servletRequestAttributes.getRequest();
-        // HttpServletResponse response = servletRequestAttributes.getResponse();
+
+        cat.eat();
+
         return new Student();
+    }
+
+    private void getTotle(int i,ObjectFactory tt ) {
+
+        log.info(String.valueOf(tt.getObject()));
+
     }
 
     @GetMapping("/test1")
@@ -91,8 +106,13 @@ public class StudentController {
      */
     @GetMapping("/sessionStatus")
     public void sessionAttribute(SessionStatus sessionStatus) {
-       //这个方法只是清除 SessionAttribute 里的参数，而不会清除正常 Session 中的参数。
+        //这个方法只是清除 SessionAttribute 里的参数，而不会清除正常 Session 中的参数。
         sessionStatus.setComplete();
+    }
+
+    public int sum(int i,int j) {
+        log.info(String.valueOf(i+j));
+        return i+j;
     }
 
 }

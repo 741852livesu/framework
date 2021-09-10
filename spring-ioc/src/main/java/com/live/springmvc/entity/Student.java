@@ -11,9 +11,10 @@ import org.springframework.stereotype.Component;
 @ToString
 public class Student {
 
-    StudentController schoolStudentController;
+    @Autowired
+    StudentController studentEntityStudentController;
 
-    String name;
-    int age;
+    String name = "live";
+    int age = 30;
 
 }

@@ -25,6 +25,7 @@ import java.lang.reflect.Type;
 @EnableConfigurationProperties(EncryptProperties.class)
 @ControllerAdvice
 public class DecryptRequest extends RequestBodyAdviceAdapter {
+
     @Autowired
     EncryptProperties encryptProperties;
     @Override

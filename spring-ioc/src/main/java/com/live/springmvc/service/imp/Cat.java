@@ -1,10 +1,10 @@
 package com.live.springmvc.service.imp;
 
 import com.live.springmvc.service.Animal;
+import com.live.springmvc.service.FunctionInterfaceTest;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.PostConstruct;
 
 /**
  * @Description:
@@ -14,11 +14,25 @@ import javax.annotation.PostConstruct;
  */
 @Slf4j
 @Service
-public class Cat extends AbstractAnimal implements Animal {
+public class Cat implements Animal {
 
-    @PostConstruct
+    public void test(int i, FunctionInterfaceTest singletonFactory) {
+        log.info(" methon test");
+        singletonFactory.eat();
+
+
+    }
+
     @Override
     public void eat() {
-        log.info("cat->eat...");
+
+        test(1, () -> list());
+
+
+    }
+
+    public Object list() {
+        log.info("menthon list");
+        return 2 + 2;
     }
 }
