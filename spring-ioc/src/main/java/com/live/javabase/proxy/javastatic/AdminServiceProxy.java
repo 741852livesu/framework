@@ -1,6 +1,6 @@
-package com.live.common.proxy.javastatic;
+package com.live.javabase.proxy.javastatic;
 
-import com.live.common.proxy.javastatic.service.AdminService;
+import com.live.javabase.proxy.javastatic.service.AdminService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

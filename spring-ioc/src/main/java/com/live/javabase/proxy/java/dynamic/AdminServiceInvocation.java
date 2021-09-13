@@ -1,7 +1,6 @@
-package com.live.common.proxy.java.dynamic;
+package com.live.javabase.proxy.java.dynamic;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationHandler;

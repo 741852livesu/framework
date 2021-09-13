@@ -1,7 +1,7 @@
-package com.live.common.proxy.javastatic;
+package com.live.javabase.proxy.javastatic;
 
-import com.live.common.proxy.javastatic.service.AdminService;
-import com.live.common.proxy.javastatic.service.imp.AdminServiceImpl;
+import com.live.javabase.proxy.javastatic.service.AdminService;
+import com.live.javabase.proxy.javastatic.service.imp.AdminServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 
 /**

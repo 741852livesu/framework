@@ -1,4 +1,4 @@
-package com.live.listener;
+package com.live.springmvc.listener;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;

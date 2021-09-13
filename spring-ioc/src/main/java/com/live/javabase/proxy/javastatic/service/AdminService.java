@@ -1,4 +1,4 @@
-package com.live.common.proxy.javastatic.service;
+package com.live.javabase.proxy.javastatic.service;
 
 /**
  * @Description:
